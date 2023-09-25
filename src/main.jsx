@@ -31,7 +31,7 @@ const myCreateRouter = createBrowserRouter([
       {
         path: "/donations/:id",
         element: <SingleD></SingleD>,
-        loader: () => fetch('./blog.jsno')
+        loader: () => fetch('./blog.json')
 
       }
 

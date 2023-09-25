@@ -7,9 +7,6 @@ function Home() {
 
     const donations = useLoaderData();
 
-
-
-
     return (
         <div>
             <Banner></Banner>
