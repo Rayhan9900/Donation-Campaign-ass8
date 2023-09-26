@@ -20,12 +20,12 @@ function SingleD() {
 
     }, [id, donations])
 
-    console.log(donation)
+
 
 
 
     return (
-        <div className=''>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
             <DonationCard donation={donation} ></DonationCard>
         </div>
     )

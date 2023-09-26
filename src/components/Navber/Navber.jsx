@@ -5,7 +5,7 @@ import Logo from './Logo'
 
 function Navber() {
     return (
-        <div>
+        <div className=' w-[1280px]'>
 
             <nav className='flex justify-between items-center py-7 px-5 shadow-md'>
                 <Logo></Logo>
